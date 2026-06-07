@@ -1,0 +1,18 @@
+# App config
+title = "TOML INI Viewer"
+enabled = true
+ports = [8000, 8001]
+released = 2026-06-07T20:40:00Z
+
+[owner]
+name = "Viggo"
+score = 42
+
+[database]
+server = "localhost"
+connection_max = 5000
+
+[database.credentials]
+user = "demo"
+password = "secret"
+

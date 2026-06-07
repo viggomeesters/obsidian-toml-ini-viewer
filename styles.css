@@ -1,0 +1,312 @@
+.toml-ini-viewer {
+  --toml-ini-viewer-border: var(--background-modifier-border);
+  --toml-ini-viewer-muted: var(--text-muted);
+  --toml-ini-viewer-code: var(--font-monospace);
+  --toml-ini-viewer-header: var(--background-secondary);
+  --toml-ini-viewer-section: #59c8ff;
+  --toml-ini-viewer-key: #e6d85c;
+  --toml-ini-viewer-value: #9be07d;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  padding: 16px 18px 18px;
+}
+
+.toml-ini-viewer__header {
+  align-items: flex-start;
+  border-bottom: 1px solid var(--toml-ini-viewer-border);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 12px;
+}
+
+.toml-ini-viewer__filename {
+  color: var(--text-normal);
+  font-size: 1.1em;
+  font-weight: 650;
+}
+
+.toml-ini-viewer__path {
+  color: var(--toml-ini-viewer-muted);
+  font-family: var(--toml-ini-viewer-code);
+  font-size: 0.82em;
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+}
+
+.toml-ini-viewer__toolbar {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: flex-end;
+}
+
+.toml-ini-viewer__search {
+  align-items: center;
+  background: var(--background-secondary);
+  border: 1px solid var(--toml-ini-viewer-border);
+  border-radius: 6px;
+  display: flex;
+  gap: 6px;
+  height: 30px;
+  padding: 0 8px;
+}
+
+.toml-ini-viewer__search-icon {
+  color: var(--toml-ini-viewer-muted);
+  display: inline-flex;
+}
+
+.toml-ini-viewer__search input {
+  background: transparent;
+  border: 0;
+  color: var(--text-normal);
+  font-size: 0.9em;
+  height: 24px;
+  min-width: 120px;
+  outline: 0;
+  padding: 0;
+  width: 150px;
+}
+
+.toml-ini-viewer__segmented {
+  align-items: center;
+  background: var(--background-secondary);
+  border: 1px solid var(--toml-ini-viewer-border);
+  border-radius: 6px;
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+}
+
+.toml-ini-viewer__button,
+.toml-ini-viewer__icon-button {
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+}
+
+.toml-ini-viewer__button {
+  background: transparent;
+  border: 0;
+  color: var(--text-muted);
+  font-size: 0.86em;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.toml-ini-viewer__icon-button {
+  width: 30px;
+}
+
+.toml-ini-viewer__button:hover,
+.toml-ini-viewer__button:focus-visible,
+.toml-ini-viewer__button.is-active {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.toml-ini-viewer__summary {
+  align-items: center;
+  color: var(--toml-ini-viewer-muted);
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  font-size: 0.84em;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.toml-ini-viewer__pill {
+  background: var(--background-secondary);
+  border: 1px solid var(--toml-ini-viewer-border);
+  border-radius: 999px;
+  color: var(--text-normal);
+  font-family: var(--toml-ini-viewer-code);
+  padding: 2px 8px;
+}
+
+.toml-ini-viewer__note {
+  color: var(--toml-ini-viewer-muted);
+}
+
+.toml-ini-viewer__warnings {
+  background: var(--background-secondary);
+  border: 1px solid var(--text-warning);
+  border-radius: 6px;
+  color: var(--text-normal);
+  flex: 0 0 auto;
+  margin: 0 0 10px;
+  padding: 10px 12px;
+}
+
+.toml-ini-viewer__warnings--error {
+  border-color: var(--text-error);
+}
+
+.toml-ini-viewer__warnings-title {
+  color: var(--text-warning);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.toml-ini-viewer__warnings--error .toml-ini-viewer__warnings-title {
+  color: var(--text-error);
+}
+
+.toml-ini-viewer__warning,
+.toml-ini-viewer__warning-more {
+  color: var(--toml-ini-viewer-muted);
+  font-family: var(--toml-ini-viewer-code);
+  font-size: 0.84em;
+  white-space: pre-wrap;
+}
+
+.toml-ini-viewer__tree {
+  border: 1px solid var(--toml-ini-viewer-border);
+  border-radius: 6px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 8px 10px;
+}
+
+.toml-ini-viewer__node {
+  font-family: var(--toml-ini-viewer-code);
+  font-size: 0.88em;
+  margin-left: calc(var(--toml-ini-viewer-depth) * 14px);
+}
+
+.toml-ini-viewer__node-summary {
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  min-height: 28px;
+  padding: 2px 6px;
+}
+
+.toml-ini-viewer__node-summary:hover {
+  background: var(--background-modifier-hover);
+}
+
+.toml-ini-viewer__node-key {
+  color: var(--text-normal);
+  font-weight: 650;
+}
+
+.toml-ini-viewer__node-type {
+  color: var(--toml-ini-viewer-muted);
+  font-size: 0.82em;
+}
+
+.toml-ini-viewer__node-value {
+  color: var(--toml-ini-viewer-value);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.toml-ini-viewer__children {
+  margin-left: 4px;
+}
+
+.toml-ini-viewer__source {
+  border: 1px solid var(--toml-ini-viewer-border);
+  border-radius: 6px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+}
+
+.toml-ini-viewer__source pre {
+  font-family: var(--toml-ini-viewer-code);
+  font-size: 0.86em;
+  line-height: 1.45;
+  margin: 0;
+  min-width: max-content;
+  padding: 10px 0;
+}
+
+.toml-ini-viewer__source-line {
+  display: grid;
+  grid-template-columns: 4.5em minmax(0, 1fr);
+  min-height: 1.45em;
+}
+
+.toml-ini-viewer__source-line:hover {
+  background: var(--background-modifier-hover);
+}
+
+.toml-ini-viewer__line-number {
+  color: var(--toml-ini-viewer-muted);
+  padding: 0 12px;
+  text-align: right;
+  user-select: none;
+}
+
+.toml-ini-viewer__source-code {
+  padding-right: 14px;
+  white-space: pre;
+}
+
+.toml-ini-viewer__token--comment {
+  color: var(--toml-ini-viewer-muted);
+}
+
+.toml-ini-viewer__token--section {
+  color: var(--toml-ini-viewer-section);
+  font-weight: 700;
+}
+
+.toml-ini-viewer__token--key {
+  color: var(--toml-ini-viewer-key);
+}
+
+.toml-ini-viewer__token--separator {
+  color: var(--toml-ini-viewer-muted);
+  padding: 0 4px;
+}
+
+.toml-ini-viewer__token--value {
+  color: var(--toml-ini-viewer-value);
+}
+
+.toml-ini-viewer__message {
+  align-items: center;
+  border: 1px dashed var(--toml-ini-viewer-border);
+  border-radius: 6px;
+  color: var(--toml-ini-viewer-muted);
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  min-height: 140px;
+  padding: 24px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .toml-ini-viewer {
+    padding: 12px;
+  }
+
+  .toml-ini-viewer__header {
+    flex-direction: column;
+  }
+
+  .toml-ini-viewer__toolbar {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+

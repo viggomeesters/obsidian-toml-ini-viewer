@@ -1,0 +1,11 @@
+{
+  "id": "toml-ini-viewer",
+  "name": "TOML INI Viewer",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Open .toml and .ini files as a read-only config tree with search, source view, and parse warnings.",
+  "author": "Viggo Meesters",
+  "authorUrl": "https://github.com/viggomeesters",
+  "isDesktopOnly": false
+}
+
