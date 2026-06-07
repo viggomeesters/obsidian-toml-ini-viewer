@@ -1,0 +1,50 @@
+<svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TOML INI Viewer for Obsidian</title>
+  <desc id="desc">A polished repository hero showing TOML and INI configuration files rendered as a read-only tree and source view.</desc>
+  <rect width="1440" height="420" rx="0" fill="#15161a"/>
+  <rect x="42" y="36" width="1356" height="348" rx="18" fill="#20232a" stroke="#3a3f4b"/>
+  <rect x="82" y="75" width="440" height="270" rx="14" fill="#111318" stroke="#3a3f4b"/>
+  <rect x="82" y="75" width="440" height="46" rx="14" fill="#2a2f39"/>
+  <circle cx="113" cy="98" r="6" fill="#ff6b6b"/>
+  <circle cx="135" cy="98" r="6" fill="#ffd166"/>
+  <circle cx="157" cy="98" r="6" fill="#70e000"/>
+  <text x="190" y="104" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">config.toml</text>
+  <text x="113" y="154" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17"># generated config</text>
+  <text x="113" y="187" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">title</text>
+  <text x="171" y="187" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">=</text>
+  <text x="197" y="187" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">"Agent output"</text>
+  <text x="113" y="220" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">[viewer]</text>
+  <text x="113" y="253" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">read_only</text>
+  <text x="214" y="253" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">=</text>
+  <text x="239" y="253" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">true</text>
+  <text x="113" y="286" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">render_nodes</text>
+  <text x="239" y="286" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">=</text>
+  <text x="264" y="286" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">2000</text>
+  <rect x="558" y="75" width="330" height="270" rx="14" fill="#111318" stroke="#3a3f4b"/>
+  <rect x="582" y="103" width="118" height="30" rx="7" fill="#263241"/>
+  <text x="609" y="124" fill="#dbeafe" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Parsed</text>
+  <rect x="708" y="103" width="104" height="30" rx="7" fill="#171a20" stroke="#3a3f4b"/>
+  <text x="736" y="124" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Source</text>
+  <rect x="582" y="154" width="254" height="28" rx="7" fill="#1f2937"/>
+  <text x="602" y="174" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">root</text>
+  <text x="783" y="174" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">4 keys</text>
+  <rect x="606" y="194" width="230" height="28" rx="7" fill="#151a22"/>
+  <text x="626" y="214" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">viewer</text>
+  <text x="778" y="214" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">object</text>
+  <rect x="630" y="234" width="206" height="28" rx="7" fill="#151a22"/>
+  <text x="650" y="254" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">read_only</text>
+  <text x="764" y="254" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">true</text>
+  <rect x="630" y="274" width="206" height="28" rx="7" fill="#151a22"/>
+  <text x="650" y="294" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">mode</text>
+  <text x="737" y="294" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">parsed</text>
+  <text x="942" y="136" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800">TOML INI Viewer</text>
+  <text x="944" y="178" fill="#cbd5e1" font-family="Inter, system-ui, sans-serif" font-size="24">Read-only config files inside Obsidian</text>
+  <rect x="946" y="216" width="138" height="38" rx="19" fill="#0f766e"/>
+  <text x="980" y="241" fill="#ecfeff" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700">read-only</text>
+  <rect x="1100" y="216" width="104" height="38" rx="19" fill="#7c3aed"/>
+  <text x="1132" y="241" fill="#f5f3ff" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700">TOML</text>
+  <rect x="1220" y="216" width="82" height="38" rx="19" fill="#2563eb"/>
+  <text x="1249" y="241" fill="#eff6ff" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700">INI</text>
+  <text x="946" y="302" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="18">Parsed tree, source fallback, warnings, search, refresh.</text>
+</svg>
+

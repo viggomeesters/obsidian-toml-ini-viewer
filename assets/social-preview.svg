@@ -1,0 +1,24 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TOML INI Viewer social preview</title>
+  <desc id="desc">Social preview card for TOML INI Viewer.</desc>
+  <rect width="1280" height="640" fill="#15161a"/>
+  <rect x="78" y="78" width="1124" height="484" rx="28" fill="#20232a" stroke="#3a3f4b"/>
+  <text x="132" y="178" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="70" font-weight="850">TOML INI Viewer</text>
+  <text x="136" y="238" fill="#cbd5e1" font-family="Inter, system-ui, sans-serif" font-size="30">Read-only config files inside Obsidian</text>
+  <rect x="138" y="298" width="158" height="48" rx="24" fill="#0f766e"/>
+  <text x="178" y="329" fill="#ecfeff" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="750">read-only</text>
+  <rect x="318" y="298" width="120" height="48" rx="24" fill="#7c3aed"/>
+  <text x="354" y="329" fill="#f5f3ff" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="750">TOML</text>
+  <rect x="460" y="298" width="96" height="48" rx="24" fill="#2563eb"/>
+  <text x="492" y="329" fill="#eff6ff" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="750">INI</text>
+  <rect x="744" y="144" width="356" height="330" rx="18" fill="#111318" stroke="#3a3f4b"/>
+  <text x="786" y="204" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">[viewer]</text>
+  <text x="786" y="252" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">mode</text>
+  <text x="880" y="252" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">=</text>
+  <text x="920" y="252" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">"parsed"</text>
+  <text x="786" y="300" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">read_only</text>
+  <text x="940" y="300" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">=</text>
+  <text x="980" y="300" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">true</text>
+  <text x="786" y="372" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="22">Tree + source + warnings</text>
+</svg>
+

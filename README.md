@@ -1,8 +1,21 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="TOML INI Viewer for Obsidian" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/viggomeesters/obsidian-toml-ini-viewer/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/viggomeesters/obsidian-toml-ini-viewer?style=flat-square"></a>
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-green?style=flat-square"></a>
+  <img alt="Minimum app version 1.5.0+" src="https://img.shields.io/badge/minimum-1.5.0%2B-7c3aed?style=flat-square">
+  <img alt="Read-only" src="https://img.shields.io/badge/mode-read--only-0f766e?style=flat-square">
+</p>
+
 # TOML INI Viewer
 
 TOML INI Viewer opens `.toml` and `.ini` files in Obsidian as a read-only config tree with search, source view, parse warnings, and safe large-file caps.
 
 It is built for generated config, agent output, CLI settings, project scaffolds, and other small structured files that are not better served by YAML, JSON, HTML, CSV, or TSV viewers.
+
+![TOML INI Viewer preview](assets/screenshot.svg)
 
 ## Features
 
@@ -76,4 +89,3 @@ Release assets:
 - `main.js`
 - `manifest.json`
 - `styles.css`
-

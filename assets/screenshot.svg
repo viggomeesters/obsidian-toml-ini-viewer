@@ -1,0 +1,55 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TOML INI Viewer preview</title>
+  <desc id="desc">A preview of the TOML INI Viewer interface showing toolbar, parsed config tree, warnings, and source rendering.</desc>
+  <rect width="1280" height="760" fill="#1c1e24"/>
+  <rect x="54" y="48" width="1172" height="664" rx="16" fill="#242731" stroke="#3a3f4b"/>
+  <rect x="86" y="82" width="1110" height="74" rx="10" fill="#191b22" stroke="#3a3f4b"/>
+  <text x="112" y="116" fill="#f8fafc" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="750">settings.toml</text>
+  <text x="112" y="140" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">20_files/2026-06/settings.toml</text>
+  <rect x="790" y="102" width="160" height="34" rx="8" fill="#111318" stroke="#3a3f4b"/>
+  <text x="824" y="124" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="14">Filter</text>
+  <rect x="966" y="102" width="98" height="34" rx="8" fill="#263241"/>
+  <text x="990" y="124" fill="#f8fafc" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Parsed</text>
+  <rect x="1070" y="102" width="96" height="34" rx="8" fill="#111318" stroke="#3a3f4b"/>
+  <text x="1097" y="124" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700">Source</text>
+  <rect x="86" y="178" width="1110" height="42" rx="10" fill="#191b22" stroke="#3a3f4b"/>
+  <text x="112" y="204" fill="#dbeafe" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">TOML</text>
+  <text x="180" y="204" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">21 nodes</text>
+  <text x="282" y="204" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="14">source view remains available if parsing fails</text>
+  <rect x="86" y="242" width="535" height="420" rx="10" fill="#111318" stroke="#3a3f4b"/>
+  <text x="116" y="282" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">root</text>
+  <text x="504" y="282" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">object</text>
+  <rect x="112" y="304" width="480" height="34" rx="8" fill="#171a20"/>
+  <text x="136" y="326" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">viewer</text>
+  <text x="510" y="326" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">4 keys</text>
+  <rect x="138" y="350" width="454" height="34" rx="8" fill="#151922"/>
+  <text x="162" y="372" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">mode</text>
+  <text x="508" y="372" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">parsed</text>
+  <rect x="138" y="396" width="454" height="34" rx="8" fill="#151922"/>
+  <text x="162" y="418" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">read_only</text>
+  <text x="520" y="418" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">true</text>
+  <rect x="112" y="454" width="480" height="34" rx="8" fill="#171a20"/>
+  <text x="136" y="476" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">limits</text>
+  <text x="510" y="476" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">2 keys</text>
+  <rect x="138" y="500" width="454" height="34" rx="8" fill="#151922"/>
+  <text x="162" y="522" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">render_nodes</text>
+  <text x="514" y="522" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">2000</text>
+  <rect x="660" y="242" width="536" height="420" rx="10" fill="#111318" stroke="#3a3f4b"/>
+  <text x="700" y="282" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">1</text>
+  <text x="748" y="282" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14"># TOML config</text>
+  <text x="700" y="318" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">2</text>
+  <text x="748" y="318" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">title</text>
+  <text x="806" y="318" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">=</text>
+  <text x="830" y="318" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">"Agent output"</text>
+  <text x="700" y="354" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">3</text>
+  <text x="748" y="354" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">[viewer]</text>
+  <text x="700" y="390" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">4</text>
+  <text x="748" y="390" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">mode</text>
+  <text x="806" y="390" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">=</text>
+  <text x="830" y="390" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">"parsed"</text>
+  <text x="700" y="426" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">5</text>
+  <text x="748" y="426" fill="#f4d35e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">read_only</text>
+  <text x="854" y="426" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">=</text>
+  <text x="878" y="426" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">true</text>
+</svg>
+
