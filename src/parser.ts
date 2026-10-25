@@ -288,7 +288,8 @@ function formatValuePreview(value: unknown): string {
   if (value instanceof Date) return value.toISOString();
   if (typeof value === "string") return value;
   if (typeof value === "bigint") return value.toString();
-  return String(value);
+  if (typeof value === "number" || typeof value === "boolean" || typeof value === "symbol") return String(value);
+  return JSON.stringify(value) ?? "undefined";
 }
 
 function formatIniPath(section: string, key: string): string {

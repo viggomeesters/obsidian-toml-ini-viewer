@@ -1,6 +1,6 @@
 {
   "name": "obsidian-toml-ini-viewer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read-only TOML and INI config viewer for Obsidian.",
   "license": "MIT",
   "author": "Viggo Meesters",
@@ -14,13 +14,13 @@
   "homepage": "https://github.com/viggomeesters/obsidian-toml-ini-viewer#readme",
   "type": "module",
   "scripts": {
-    "build": "NODE_ENV=production node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
     "dev": "node esbuild.config.mjs",
-    "test": "node scripts/parser-test.mjs && node scripts/smoke-test.mjs",
+    "test": "node scripts/parser-hang-test.mjs && node scripts/parser-test.mjs && node scripts/smoke-test.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "smol-toml": "^1.6.1"
+    "smol-toml": "^1.9.1"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
@@ -29,4 +29,3 @@
     "typescript": "^5.9.3"
   }
 }
-
